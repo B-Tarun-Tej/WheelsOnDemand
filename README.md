@@ -1,4 +1,4 @@
-# WheelsOnDemand - A VEHICLE RENTAL SYSTEM project
+# WheelsOnDemand - A Vehicle Rental System project
 
 **Introduction:**
 Wheels on Demand is an application built using C++ that helps an operator to maintain records related to users, vehicles and trips at the vehicle rental office. The functionality provided by this application includes:
