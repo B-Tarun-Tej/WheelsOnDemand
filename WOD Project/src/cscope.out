@@ -1,0 +1,6866 @@
+cscope 15 $HOME/Tarun_Tej/VRS_project/my_project/src               0000036371
+	@application.cpp
+
+8 
+	~"­¶iÿtiÚ.h
+"
+
+9 
+	~"d©aba£_‹m¶©es.ıp
+"
+
+12 
+	~<io¡»am
+>
+
+13 
+	~<c¡dio
+>
+
+14 
+	~<lim™s
+>
+
+15 
+	~<iomª
+>
+
+16 
+	~<c¡dlib
+>
+
+27 
+	gAµliÿtiÚ
+ :: 
+	$AµliÿtiÚ
+()
+
+29 
+Œy
+ {
+
+30 
+this
+ -> 
+db
+ = 
+Ãw
+ 
+	`D©aba£
+();
+
+32 
+	`ÿtch
+ (
+E¼Ü
+ 
+e
+) {
+
+33 
+cout
+ << 
+e
+.
+	`g‘Mes§ge
+();
+
+34 
+	`ex™
+ (
+EXIT_FAILURE
+);
+
+36 
+	}
+}
+
+46 
+	gAµliÿtiÚ
+ :: 
+	$gÙoXY
+ (
+x
+, 
+y
+) const
+
+48 
+	`´štf
+ ("%c[%d; %df", 0x1B, 
+y
+, 
+x
+);
+
+49 
+	}
+}
+
+58 
+	gAµliÿtiÚ
+ :: 
+	$»nd”M’u
+ ()
+
+60 
+choiû
+ = 1;
+
+61 
+Œue
+)
+
+63 
+	`sy¡em
+ ("clear");
+
+65 
+	`gÙoXY
+ (25, 4);
+
+66 
+cout
+ << "Select‡ny option from below";
+
+68 
+	`gÙoXY
+ (25, 5);
+
+69 
+cout
+ << "1. Add‚ew vehicle";
+
+71 
+	`gÙoXY
+ (25, 6);
+
+72 
+cout
+ << "2. View vehicle details";
+
+74 
+	`gÙoXY
+ (25, 7);
+
+75 
+cout
+ << "3. Edit vehicle details";
+
+77 
+	`gÙoXY
+ (25, 8);
+
+78 
+cout
+ << "4. Add‚ew user";
+
+80 
+	`gÙoXY
+ (25, 9);
+
+81 
+cout
+ << "5. Add‚ewrip";
+
+83 
+	`gÙoXY
+ (25, 10);
+
+84 
+cout
+ << "6. View Trip";
+
+86 
+	`gÙoXY
+ (25, 11);
+
+87 
+cout
+ << "7. Start Trip";
+
+89 
+	`gÙoXY
+ (25, 12);
+
+90 
+cout
+ << "8. Completer Trip";
+
+92 
+	`gÙoXY
+ (25, 13);
+
+93 
+cout
+ << "9. Exit";
+
+95 
+	`gÙoXY
+ (30, 15);
+
+96 
+	`´štf
+ ("Enter your choice: ");
+
+98 
+	`gÙoXY
+ (50, 15);
+
+99 
+cš
+ >> 
+choiû
+;
+
+100 
+cš
+.
+	`ignÜe
+ (
+num”ic_lim™s
+ <
+¡»amsize
+> :: 
+	`max
+(), '\n');
+
+102 
+choiû
+)
+
+105 
+this
+ -> 
+	`»nd”AddNewVehişeM’u
+();
+
+109 
+this
+ -> 
+	`»nd”V›wVehişeM’u
+();
+
+113 
+this
+ -> 
+	`»nd”Ed™VehişeM’u
+();
+
+117 
+this
+ -> 
+	`»nd”AddNewU£rM’u
+();
+
+121 
+this
+ -> 
+	`»nd”AddNewTrM’u
+();
+
+125 
+this
+ -> 
+	`»nd”V›wTrM’u
+();
+
+129 
+this
+ -> 
+	`»nd”S¹TrM’u
+();
+
+133 
+this
+ -> 
+	`»nd”Com¶‘eTrM’u
+();
+
+137 
+this
+ -> 
+	`ş—nMemÜy
+();
+
+138 
+	`sy¡em
+ ("clear");
+
+139 
+	`ex™
+ (
+EXIT_SUCCESS
+);
+
+143 
+this
+ -> 
+	`ş—nMemÜy
+();
+
+144 
+	`sy¡em
+ ("clear");
+
+145 
+	`ex™
+ (
+EXIT_SUCCESS
+);
+
+149 
+	}
+}
+
+158 
+	gAµliÿtiÚ
+ :: 
+	$»nd”AddNewVehişeM’u
+() const
+
+160 
+¡ršg
+ 
+h—d”
+ = "Enter details of vehicle (All fields‡re„equired)";
+
+161 
+¡ršg
+ 
+»gi¡¿tiÚNoLab–
+ = "Enter vehicle„egistration‚umber: ";
+
+162 
+¡ršg
+ 
+vehişeTy³Lab–
+ = "Enter vehicleype: ";
+
+163 
+¡ršg
+ 
+vehişeO±iÚLab–
+ = "(1. Bike, 2. Car, 3. Towera)";
+
+164 
+¡ršg
+ 
+£©Lab–
+ = "Enter‚o of seats: ";
+
+165 
+¡ršg
+ 
+com·nyNameLab–
+ = "Enter‚ame of company: ";
+
+166 
+¡ršg
+ 
+´iûLab–
+ = "Enter…rice…er km: ";
+
+167 
+¡ršg
+ 
+pucExpœ©iÚD©eLab–
+ = "Enter PUCƒxpiration date (d/m/yyyy): ";
+
+169 
+¡ršg
+ 
+»gi¡¿tiÚNo
+;
+
+170 
+vehişeTy³
+;
+
+171 
+£©
+;
+
+172 
+¡ršg
+ 
+com·nyName
+;
+
+173 
+´iû
+;
+
+174 
+¡ršg
+ 
+pucExpœ©iÚD©e
+;
+
+176 
+	`sy¡em
+ ("clear");
+
+178 
+	`gÙoXY
+ (0, 1);
+
+179 
+cout
+ << 
+h—d”
+;
+
+181 
+	`gÙoXY
+ (0, 3);
+
+182 
+cout
+ << 
+»gi¡¿tiÚNoLab–
+;
+
+184 
+	`gÙoXY
+ (0, 4);
+
+185 
+cout
+ << 
+vehişeTy³Lab–
+;
+
+187 
+	`gÙoXY
+ (0, 5);
+
+188 
+cout
+ << 
+vehişeO±iÚLab–
+;
+
+190 
+	`gÙoXY
+ (0, 6);
+
+191 
+cout
+ << 
+£©Lab–
+;
+
+193 
+	`gÙoXY
+ (0, 7);
+
+194 
+cout
+ << 
+com·nyNameLab–
+;
+
+196 
+	`gÙoXY
+ (0, 8);
+
+197 
+cout
+ << 
+´iûLab–
+;
+
+199 
+	`gÙoXY
+ (0, 9);
+
+200 
+cout
+ << 
+pucExpœ©iÚD©eLab–
+;
+
+203 
+	`gÙoXY
+ ((
+»gi¡¿tiÚNoLab–
+.
+	`Ëngth
+()), 3);
+
+204 
+	`g‘lše
+ (
+cš
+, 
+»gi¡¿tiÚNo
+);
+
+206 
+	`gÙoXY
+ ((
+vehişeTy³Lab–
+.
+	`Ëngth
+()), 4);
+
+207 
+cš
+ >> 
+vehişeTy³
+;
+
+208 
+cš
+.
+	`ignÜe
+ (
+num”ic_lim™s
+ <
+¡»amsize
+> :: 
+	`max
+(), '\n');
+
+210 
+	`gÙoXY
+ ((
+£©Lab–
+.
+	`Ëngth
+()), 6);
+
+211 
+cš
+ >> 
+£©
+;
+
+212 
+cš
+.
+	`ignÜe
+ (
+num”ic_lim™s
+ <
+¡»amsize
+> :: 
+	`max
+(), '\n');
+
+214 
+	`gÙoXY
+ ((
+com·nyNameLab–
+.
+	`Ëngth
+()), 7);
+
+215 
+	`g‘lše
+ (
+cš
+, 
+com·nyName
+);
+
+217 
+	`gÙoXY
+ ((
+´iûLab–
+.
+	`Ëngth
+()), 8);
+
+218 
+cš
+ >> 
+´iû
+;
+
+219 
+cš
+.
+	`ignÜe
+ (
+num”ic_lim™s
+ <
+¡»amsize
+> :: 
+	`max
+(), '\n');
+
+221 
+	`gÙoXY
+ ((
+pucExpœ©iÚD©eLab–
+.
+	`Ëngth
+()), 9);
+
+222 
+	`g‘lše
+ (
+cš
+, 
+pucExpœ©iÚD©e
+);
+
+224 
+Vehişe
+ *
+vehişe
+;
+
+226 
+Œy
+ {
+
+227 
+vehişe
+ = 
+Ãw
+ 
+	`Vehişe
+ (
+»gi¡¿tiÚNo
+, 
+	`VehişeTy³
+(
+vehişeTy³
+), 
+£©
+, 
+com·nyName
+, 
+´iû
+, 
+	`D©e
+(
+pucExpœ©iÚD©e
+));
+
+228 
+this
+ -> 
+db
+ -> 
+	`addNewRecÜd
+ (
+vehişe
+);
+
+229 
+¡ršg¡»am
+ 
+ss
+;
+
+230 
+ss
+ << "VehişId: " << 
+vehişe
+ -> 
+	`g‘RecÜdId
+();
+
+231 
+	`showDŸlog
+ ("Vehişadded sucûssfuÎy", 
+ss
+.
+	`¡r
+());
+
+233 
+	`ÿtch
+ (
+E¼Ü
+ 
+e
+) {
+
+234 
+	`showDŸlog
+ (
+e
+.
+	`g‘Mes§ge
+());
+
+237 
+d–‘e
+ 
+vehişe
+;
+
+238 
+	}
+}
+
+247 
+	gAµliÿtiÚ
+ :: 
+	$»nd”V›wVehişeM’u
+() const
+
+249 
+¡ršg
+ 
+h—d”
+ = "Enter„egistration‚o. of Vehicle: ";
+
+250 
+¡ršg
+ 
+»gi¡¿tiÚNo
+;
+
+251 
+	`sy¡em
+ ("clear");
+
+253 
+	`gÙoXY
+ (0, 1);
+
+254 
+cout
+ << 
+h—d”
+;
+
+256 
+	`gÙoXY
+ ((
+h—d”
+.
+	`Ëngth
+()), 1);
+
+257 
+	`g‘lše
+ (
+cš
+, 
+»gi¡¿tiÚNo
+);
+
+260 
+	`gÙoXY
+ (0, 3);
+
+261 
+Œy
+ {
+
+262 autØ
+vehişe
+ = 
+this
+ -> 
+db
+ -> 
+	`g‘Vehişe
+ (
+»gi¡¿tiÚNo
+);
+
+263 
+vehişe
+ -> 
+	`di¥Ïy
+();
+
+265 
+cout
+ << 
+’dl
+ << "Press‡ny keyo continue";
+
+266 
+cš
+.
+	`g‘
+();
+
+268 
+	`ÿtch
+ (
+E¼Ü
+ 
+e
+) {
+
+269 
+this
+ -> 
+	`showDŸlog
+ (
+e
+.
+	`g‘Mes§ge
+());
+
+271 
+	}
+}
+
+281 
+	gAµliÿtiÚ
+ :: 
+	$»nd”Ed™VehişeM’u
+() const
+
+283 
+¡ršg
+ 
+h—d”
+ = "Enter„egistration‚o. of vehicle you wantoƒdit: ";
+
+284 
+¡ršg
+ 
+´iûLab–
+ = "Enter‚ew…rice…er km: ";
+
+285 
+¡ršg
+ 
+»gi¡¿tiÚNo
+;
+
+286 
+	`sy¡em
+ ("clear");
+
+288 
+	`gÙoXY
+ (0, 1);
+
+289 
+cout
+ << 
+h—d”
+;
+
+291 
+	`gÙoXY
+ ((
+h—d”
+.
+	`Ëngth
+()), 1);
+
+292 
+	`g‘lše
+ (
+cš
+, 
+»gi¡¿tiÚNo
+);
+
+295 
+	`gÙoXY
+ (0, 3);
+
+297 
+Vehişe
+ *
+modif›dVehişe
+;
+
+298 
+Œy
+ {
+
+299 autØ
+Vehişe
+ = 
+this
+ -> 
+db
+ -> 
+	`g‘Vehişe
+ (
+»gi¡¿tiÚNo
+);
+
+300 
+Vehişe
+ -> 
+	`di¥Ïy
+();
+
+302 
+¡ršg
+ 
+ÃwPriû
+;
+
+304 
+	`gÙoXY
+ (0, 12);
+
+305 
+cout
+ << 
+´iûLab–
+;
+
+307 
+	`gÙoXY
+ ((
+´iûLab–
+.
+	`Ëngth
+()), 12);
+
+308 
+	`g‘lše
+ (
+cš
+, 
+ÃwPriû
+);
+
+310 ià(
+ÃwPriû
+ != "")
+
+312 
+modif›dVehişe
+ -> 
+	`£tPriûP”Km
+ (
+	`¡od
+(
+ÃwPriû
+));
+
+313 
+this
+ -> 
+db
+ -> 
+	`upd©eRecÜd
+ (
+modif›dVehişe
+);
+
+315 
+this
+ -> 
+	`showDŸlog
+ ("Vehicle data updated successfully");
+
+318 
+	`ÿtch
+ (
+E¼Ü
+ 
+e
+) {
+
+319 
+this
+ -> 
+	`showDŸlog
+ (
+e
+.
+	`g‘Mes§ge
+());
+
+322 
+d–‘e
+ 
+modif›dVehişe
+;
+
+323 
+	}
+}
+
+332 
+	gAµliÿtiÚ
+ :: 
+	$»nd”AddNewU£rM’u
+() const
+
+334 
+¡ršg
+ 
+h—d”
+ = "Enter details of user";
+
+335 
+¡ršg
+ 
+u£rNameLab–
+ = "Enter‚ame ofhe user: ";
+
+336 
+¡ršg
+ 
+u£rCÚùLab–
+ = "Enter contact‚o ofhe user: ";
+
+337 
+¡ršg
+ 
+u£rEmaLab–
+ = "Enterƒmail ofhe user (optional): ";
+
+338 
+¡ršg
+ 
+Çme
+;
+
+339 
+¡ršg
+ 
+cÚù
+;
+
+340 
+¡ršg
+ 
+ema
+;
+
+341 
+	`sy¡em
+ ("clear");
+
+343 
+	`gÙoXY
+ (0, 1);
+
+344 
+cout
+ << 
+h—d”
+;
+
+346 
+	`gÙoXY
+ (0, 3);
+
+347 
+cout
+ << 
+u£rNameLab–
+;
+
+349 
+	`gÙoXY
+ (0, 4);
+
+350 
+cout
+ << 
+u£rCÚùLab–
+;
+
+352 
+	`gÙoXY
+ (0, 5);
+
+353 
+cout
+ << 
+u£rEmaLab–
+;
+
+356 
+	`gÙoXY
+ ((
+u£rNameLab–
+.
+	`Ëngth
+()), 3);
+
+357 
+	`g‘lše
+ (
+cš
+, 
+Çme
+);
+
+359 
+	`gÙoXY
+ ((
+u£rCÚùLab–
+.
+	`Ëngth
+()), 4);
+
+360 
+	`g‘lše
+ (
+cš
+, 
+cÚù
+);
+
+362 
+	`gÙoXY
+ ((
+u£rEmaLab–
+.
+	`Ëngth
+()), 5);
+
+363 
+	`g‘lše
+ (
+cš
+, 
+ema
+);
+
+365 
+U£r
+ *
+u£r
+;
+
+366 
+Œy
+ {
+
+367 
+u£r
+ = 
+Ãw
+ 
+	`U£r
+ (
+Çme
+, 
+cÚù
+, 
+ema
+);
+
+368 
+this
+ -> 
+db
+ -> 
+	`addNewRecÜd
+ (
+u£r
+);
+
+369 
+¡ršg¡»am
+ 
+ss
+;
+
+370 
+ss
+ << "U£¸Id: " << 
+u£r
+ -> 
+	`g‘RecÜdId
+();
+
+371 
+	`showDŸlog
+ ("U£¸added SucûssfuÎy", 
+ss
+.
+	`¡r
+());
+
+373 
+	`ÿtch
+ (
+E¼Ü
+ 
+e
+) {
+
+374 
+	`showDŸlog
+ (
+e
+.
+	`g‘Mes§ge
+());
+
+377 
+d–‘e
+ 
+u£r
+;
+
+378 
+	}
+}
+
+387 
+	gAµliÿtiÚ
+ :: 
+	$»nd”AddNewTrM’u
+() const
+
+389 
+¡ršg
+ 
+h—d”
+ = "Enter details ofherip (All fields‡re„equired)";
+
+390 
+¡ršg
+ 
+u£rCÚùLab–
+ = "Enter contact‚o ofhe user";
+
+391 
+¡ršg
+ 
+¡¬tD©eLab–
+ = "Enter start date ofherip (d/m/yyyy): ";
+
+392 
+¡ršg
+ 
+’dD©eLab–
+ = "Enterƒnd date ofherip (d/m/yyyy): ";
+
+393 
+¡ršg
+ 
+vehişeTy³Lab–
+ = "Enter vehicleype: ";
+
+394 
+¡ršg
+ 
+vehişeO±iÚLab–
+ = "(1. Bike, 2. Car, 3. Towera)";
+
+395 
+¡ršg
+ 
+»gi¡¿tiÚNoLab–
+ = "Enter„egistration‚o of vehicle : ";
+
+396 
+¡ršg
+ 
+cÚùNo
+;
+
+397 
+¡ršg
+ 
+¡¬tD©e
+;
+
+398 
+¡ršg
+ 
+’dD©e
+;
+
+399 
+vehişeTy³
+;
+
+400 
+¡ršg
+ 
+»gi¡¿tiÚNo
+;
+
+402 cÚ¡ 
+U£r
+ *
+u£r
+;
+
+403 cÚ¡ 
+Vehişe
+ *
+vehişe
+;
+
+404 
+	`sy¡em
+ ("clear");
+
+406 
+	`gÙoXY
+ (0, 1);
+
+407 
+cout
+ << 
+u£rCÚùLab–
+;
+
+409 
+	`gÙoXY
+ ((
+u£rCÚùLab–
+.
+	`Ëngth
+()), 1);
+
+410 
+	`g‘lše
+ (
+cš
+, 
+cÚùNo
+);
+
+412 
+Œy
+ {
+
+413 
+u£r
+ = 
+this
+ -> 
+db
+ -> 
+	`g‘U£r
+(
+cÚùNo
+);
+
+414 
+	`gÙoXY
+ (0, 3);
+
+415 
+cout
+ << "U£¸found: " << 
+u£r
+ -> 
+	`g‘Name
+();
+
+418 
+	`ÿtch
+ (
+E¼Ü
+ 
+e
+) {
+
+419 
+this
+ -> 
+	`showDŸlog
+ (
+e
+.
+	`g‘Mes§ge
+());
+
+422 
+	`gÙoXY
+ (0, 5);
+
+423 
+cout
+ << 
+h—d”
+;
+
+425 
+	`gÙoXY
+ (0, 7);
+
+426 
+cout
+ << 
+¡¬tD©eLab–
+;
+
+428 
+	`gÙoXY
+ (0, 8);
+
+429 
+cout
+ << 
+’dD©eLab–
+;
+
+431 
+	`gÙoXY
+ (0, 9);
+
+432 
+cout
+ << 
+vehişeTy³Lab–
+;
+
+434 
+	`gÙoXY
+ (0, 10);
+
+435 
+cout
+ << 
+vehişeO±iÚLab–
+;
+
+437 
+	`gÙoXY
+ ((
+¡¬tD©e
+.
+	`Ëngth
+()), 7);
+
+438 
+	`g‘lše
+ (
+cš
+, 
+¡¬tD©e
+);
+
+440 
+	`gÙoXY
+ ((
+’dD©e
+.
+	`Ëngth
+()), 8);
+
+441 
+	`g‘lše
+ (
+cš
+, 
+’dD©e
+);
+
+443 
+	`gÙoXY
+ ((
+vehişeTy³Lab–
+.
+	`Ëngth
+()), 9);
+
+444 
+cš
+ >> 
+vehişeTy³
+;
+
+445 
+cš
+.
+	`ignÜe
+ (
+num”ic_lim™s
+ <
+¡»amsize
+> :: 
+	`max
+(), '\n');
+
+448 autØ
+ä“Vehişes
+ = 
+this
+ -> 
+db
+ -> 
+	`g‘Vehişe
+(
+	`D©e
+(
+¡¬tD©e
+), D©e(
+’dD©e
+), 
+	`VehişeTy³
+(
+vehişeTy³
+));
+
+450 ià(
+ä“Vehişes
+.
+	`size
+() == 0)
+
+452 
+this
+ -> 
+	`showDŸlog
+ ("No vehicles‡re free in given date„ange");
+
+456 
+	`gÙoXY
+ (0, 12);
+
+457 
+cout
+ << "|Regi¡¿tiÚ‚Ø|" << "S—t |" << "Priû…” Km |" << 
+’dl
+;
+
+459 autØ&
+vehişe
+ : 
+ä“Vehişes
+)
+
+461 
+¡ršg
+ 
+»gi¡¿tiÚNo
+ = 
+vehişe
+ -> 
+	`g‘Regi¡¿tiÚNumb”
+();
+
+462 
+¡ršg
+ 
+£©s
+ = 
+	`to_¡ršg
+ (
+vehişe
+ -> 
+	`g‘S—ts
+());
+
+464 
+¡ršg¡»am
+ 
+ss
+;
+
+465 
+ss
+ << 
+¡d
+ :: 
+fixed
+;
+
+466 
+ss
+ << 
+¡d
+ :: 
+	`£»cisiÚ
+(2);
+
+467 
+ss
+ << 
+vehişe
+ -> 
+	`g‘PriûP”Km
+();
+
+469 
+¡ršg
+ 
+´iû
+ = 
+ss
+.
+	`¡r
+() + " Rs/km";
+
+471 
+cout
+ << "|" << 
+»gi¡¿tiÚNo
+ << 
+	`¡ršg
+ (7, ' 'è<< "|" << 
+£©s
+ << sŒšg (7 - s—ts.
+	`Ëngth
+(), ' 'è<< "|" << 
+´iû
+ << sŒšg (14 -…riû.Ëngth(), ' 'è<< "|" << 
+’dl
+;
+
+474 
+off£t
+ = (
+ä“Vehişes
+.
+	`size
+()) + 2;
+
+476 
+	`gÙoXY
+ (0, 12 + 
+off£t
+);
+
+477 
+cout
+ << 
+»gi¡¿tiÚNoLab–
+;
+
+479 
+	`gÙoXY
+ ((
+»gi¡¿tiÚNoLab–
+.
+	`Ëngth
+()), 12 + 
+off£t
+);
+
+480 
+	`g‘lše
+ (
+cš
+, 
+»gi¡¿tiÚNo
+);
+
+483 
+Œy
+ {
+
+484 
+vehişe
+ = 
+this
+ -> 
+db
+ -> 
+	`g‘Vehişe
+ (
+»gi¡¿tiÚNo
+);
+
+486 
+	`ÿtch
+ (
+E¼Ü
+ 
+e
+) {
+
+487 
+this
+ -> 
+	`showDŸlog
+ (
+e
+.
+	`g‘Mes§ge
+());
+
+491 
+u£rId
+ = 
+u£r
+ -> 
+	`g‘RecÜdId
+();
+
+492 
+vehişeId
+ = 
+vehişe
+ -> 
+	`g‘RecÜdId
+();
+
+494 
+Tr
+ *
+Œ
+;
+
+495 
+Œy
+ {
+
+496 
+Œ
+ = 
+Ãw
+ 
+	`Tr
+ (
+this
+ -> 
+db
+ -> 
+	`g‘VehişeRef
+(è-> 
+	`g‘RecÜdFÜId
+ (
+vehişeId
+),hi -> db -> 
+	`g‘U£rRef
+(è-> g‘RecÜdFÜId (
+u£rId
+), 
+	`D©e
+ (
+¡¬tD©e
+), D©(
+’dD©e
+));
+
+497 
+this
+ -> 
+db
+ -> 
+	`addNewRecÜd
+ (
+Œ
+);
+
+498 
+¡ršg¡»am
+ 
+ss
+;
+
+499 
+ss
+ << "Tr Id: " << 
+Œ
+ -> 
+	`g‘RecÜdId
+();
+
+500 
+	`showDŸlog
+ ("Tr‡dded sucûssfuÎy", 
+ss
+.
+	`¡r
+());
+
+502 
+	`ÿtch
+ (
+E¼Ü
+ 
+e
+) {
+
+503 
+	`showDŸlog
+ (
+e
+.
+	`g‘Mes§ge
+());
+
+507 
+d–‘e
+ 
+Œ
+;
+
+508 
+	}
+}
+
+517 
+	gAµliÿtiÚ
+ :: 
+	$»nd”V›wTrM’u
+() const
+
+519 
+¡ršg
+ 
+h—d”
+ = "Enterrip id : ";
+
+520 
+ŒId
+;
+
+521 
+	`sy¡em
+ ("clear");
+
+523 
+	`gÙoXY
+ (0, 1);
+
+524 
+cout
+ << 
+h—d”
+;
+
+526 
+	`gÙoXY
+ ((
+h—d”
+.
+	`Ëngth
+()), 1);
+
+527 
+cš
+ >> 
+ŒId
+;
+
+528 
+cš
+.
+	`ignÜe
+ (
+num”ic_lim™s
+ <
+¡»amsize
+> :: 
+	`max
+(), '\n');
+
+531 
+	`gÙoXY
+ (0, 3);
+
+532 
+Œy
+ {
+
+533 autØ
+Œ
+ = 
+this
+ -> 
+db
+ -> 
+	`g‘TrRef
+(è-> 
+	`g‘RecÜdFÜId
+ (
+ŒId
+);
+
+534 
+Œ
+ -> 
+	`di¥Ïy
+();
+
+536 
+cout
+ << 
+’dl
+ << "Press‡ny keyo continue";
+
+537 
+cš
+.
+	`g‘
+();
+
+539 
+	`ÿtch
+ (
+E¼Ü
+ 
+e
+) {
+
+540 
+this
+ -> 
+	`showDŸlog
+ (
+e
+.
+	`g‘Mes§ge
+());
+
+542 
+	}
+}
+
+551 
+	gAµliÿtiÚ
+ :: 
+	$»nd”S¹TrM’u
+() const
+
+553 
+¡ršg
+ 
+h—d”
+ = "Enterrip id: ";
+
+554 
+¡ršg
+ 
+»adšgLab–
+ = "Enter odometer„eading: ";
+
+555 
+ŒId
+;
+
+556 
+¡¬tR—dšg
+;
+
+557 
+	`sy¡em
+ ("clear");
+
+559 
+	`gÙoXY
+ (0, 1);
+
+560 
+cout
+ << 
+h—d”
+;
+
+562 
+	`gÙoXY
+ (0, 2);
+
+563 
+cout
+ << 
+»adšgLab–
+;
+
+565 
+	`gÙoXY
+ ((
+h—d”
+.
+	`Ëngth
+()), 1);
+
+566 
+cš
+ >> 
+ŒId
+;
+
+567 
+cš
+.
+	`ignÜe
+ (
+num”ic_lim™s
+ <
+¡»amsize
+> :: 
+	`max
+(), '\n');
+
+569 
+	`gÙoXY
+ ((
+»adšgLab–
+.
+	`Ëngth
+()), 2);
+
+570 
+cš
+ >> 
+¡¬tR—dšg
+;
+
+571 
+cš
+.
+	`ignÜe
+ (
+num”ic_lim™s
+ <
+¡»amsize
+> :: 
+	`max
+(), '\n');
+
+573 
+Tr
+ *
+modif›dTr
+;
+
+574 
+Œy
+ {
+
+575 autØ
+Œ
+ = 
+this
+ -> 
+db
+ -> 
+	`g‘TrRef
+(è-> 
+	`g‘RecÜdFÜId
+(
+ŒId
+);
+
+576 
+modif›dTr
+ = 
+Ãw
+ 
+	`Tr
+ (*
+Œ
+);
+
+577 
+modif›dTr
+ -> 
+	`¡¬tTr
+ (
+¡¬tR—dšg
+);
+
+579 
+this
+ -> 
+db
+ -> 
+	`upd©eRecÜd
+ (
+modif›dTr
+);
+
+580 
+	`showDŸlog
+ ("Trip started successfully");
+
+582 
+	`ÿtch
+ (
+E¼Ü
+ 
+e
+) {
+
+583 
+this
+ -> 
+	`showDŸlog
+ (
+e
+.
+	`g‘Mes§ge
+());
+
+586 
+d–‘e
+ 
+modif›dTr
+;
+
+587 
+	}
+}
+
+596 
+	gAµliÿtiÚ
+ :: 
+	$»nd”Com¶‘eTrM’u
+() const
+
+598 
+¡ršg
+ 
+h—d”
+ = "Enterrip id: ";
+
+599 
+¡ršg
+ 
+»adšgLab–
+ = "Enter odometer„eading: ";
+
+600 
+ŒId
+;
+
+601 
+’dR—dšg
+;
+
+602 
+	`sy¡em
+ ("clear");
+
+604 
+	`gÙoXY
+ (0, 1);
+
+605 
+cout
+ << 
+h—d”
+;
+
+607 
+	`gÙoXY
+ (0, 2);
+
+608 
+cout
+ << 
+»adšgLab–
+;
+
+610 
+	`gÙoXY
+ ((
+h—d”
+.
+	`Ëngth
+()), 1);
+
+611 
+cš
+ >> 
+ŒId
+;
+
+612 
+cš
+.
+	`ignÜe
+ (
+num”ic_lim™s
+ <
+¡»amsize
+> :: 
+	`max
+(), '\n');
+
+614 
+	`gÙoXY
+ ((
+»adšgLab–
+.
+	`Ëngth
+()), 2);
+
+615 
+cš
+ >> 
+»adšgLab–
+;
+
+616 
+cš
+.
+	`ignÜe
+ (
+num”ic_lim™s
+ <
+¡»amsize
+> :: 
+	`max
+(), '\n');
+
+618 
+Œy
+ {
+
+619 autØ
+Œ
+ = 
+this
+ -> 
+db
+ -> 
+	`g‘TrRef
+(è-> 
+	`g‘RecÜdFÜId
+(
+ŒId
+);
+
+620 
+Tr
+ *
+modif›dTr
+ = 
+Ãw
+ 
+	`Tr
+ (*
+Œ
+);
+
+621 autØ
+ç»
+ = 
+modif›dTr
+ -> 
+	`com¶‘eTr
+ (
+’dR—dšg
+);
+
+622 
+this
+ -> 
+db
+ -> 
+	`upd©eRecÜd
+(
+modif›dTr
+);
+
+624 
+¡ršg¡»am
+ 
+ss
+;
+
+625 
+ss
+ << "TÙ® F¬e: " << 
+ç»
+;
+
+626 
+	`showDŸlog
+ ("Tr Com¶‘ed SucûssfuÎy", 
+ss
+.
+	`¡r
+());
+
+628 
+	`ÿtch
+ (
+E¼Ü
+ 
+e
+) {
+
+629 
+this
+ -> 
+	`showDŸlog
+ (
+e
+.
+	`g‘Mes§ge
+());
+
+631 
+	}
+}
+
+640 
+	gAµliÿtiÚ
+ :: 
+	$showDŸlog
+ (
+¡ršg
+ 
+mes§ge
+, sŒšg 
+id
+) const
+
+642 autØ
+mes§geL’gth
+ = (
+mes§ge
+.
+	`Ëngth
+());
+
+643 
+¡ršg
+ 
+´essAnyKey
+ = "Press‡ny keyo continue";
+
+644 
+šfoL’gth
+ = (
+´essAnyKey
+.
+	`Ëngth
+());
+
+645 
+ËáOff£t
+ = 15;
+
+646 
+Ëngth
+ = 30;
+
+647 
+lšeOff£t
+ = 9;
+
+648 
+	`sy¡em
+ ("clear");
+
+651 
+	`gÙoXY
+ (
+ËáOff£t
+, 
+lšeOff£t
+++);
+
+652 
+cout
+ << "****************************************************************";
+
+655 
+	`gÙoXY
+ (
+ËáOff£t
+, 
+lšeOff£t
+);
+
+656 
+cout
+ << "*";
+
+657 
+	`gÙoXY
+ (
+ËáOff£t
+ + 
+Ëngth
+ - 1, 
+lšeOff£t
+++);
+
+658 
+cout
+ << "*";
+
+661 
+	`gÙoXY
+ (
+ËáOff£t
+, 
+lšeOff£t
+);
+
+662 
+cout
+ << "*";
+
+663 
+	`gÙoXY
+ ((80 - 
+mes§geL’gth
+è/ 2, 
+lšeOff£t
+);
+
+664 
+cout
+ << 
+mes§ge
+;
+
+665 
+	`gÙoXY
+ (
+ËáOff£t
+ + 
+Ëngth
+ - 1, 
+lšeOff£t
+++);
+
+666 
+cout
+ << "*";
+
+668 ià(
+id
+ != "")
+
+671 
+	`gÙoXY
+ (
+ËáOff£t
+, 
+lšeOff£t
+);
+
+672 
+cout
+ << "*";
+
+673 
+	`gÙoXY
+ ((è((80 - (
+id
+.
+	`Ëngth
+())è/ 2), 
+lšeOff£t
+);
+
+674 
+cout
+ << 
+id
+;
+
+675 
+	`gÙoXY
+ (
+ËáOff£t
+ + 
+Ëngth
+ - 1, 
+lšeOff£t
+++);
+
+676 
+cout
+ << "*";
+
+680 
+	`gÙoXY
+ (
+ËáOff£t
+, 
+lšeOff£t
+);
+
+681 
+cout
+ << "*";
+
+682 
+	`gÙoXY
+ ((è((80 - 
+šfoL’gth
+è/ 2), 
+lšeOff£t
+);
+
+683 
+cout
+ << 
+´essAnyKey
+;
+
+684 
+	`gÙoXY
+ (
+ËáOff£t
+ + 
+Ëngth
+ - 1, 
+lšeOff£t
+++);
+
+685 
+cout
+ << "*";
+
+688 
+	`gÙoXY
+ (
+ËáOff£t
+, 
+lšeOff£t
+);
+
+689 
+cout
+ << "*";
+
+690 
+	`gÙoXY
+ (
+ËáOff£t
+ + 
+Ëngth
+ - 1, 
+lšeOff£t
+++);
+
+691 
+cout
+ << "*";
+
+694 
+	`gÙoXY
+ (
+ËáOff£t
+, 
+lšeOff£t
+++);
+
+695 
+cout
+ << "******************************************************************";
+
+697 
+cš
+.
+	`g‘
+();
+
+698 
+	}
+}
+
+707 
+	gAµliÿtiÚ
+ :: 
+	$w–come
+ ()
+
+709 
+	`sy¡em
+ ("clear");
+
+710 
+	`gÙoXY
+ (25, 5);
+
+711 
+cout
+ << "W–comtØthVehişR’ÈSy¡em" << 
+’dl
+;
+
+712 
+	`gÙoXY
+ (27, 23);
+
+713 
+cout
+ << "Press‡ny keyo continue";
+
+716 
+cš
+.
+	`g‘
+();
+
+717 
+this
+ -> 
+	`»nd”M’u
+();
+
+718 
+	}
+}
+
+727 
+	gAµliÿtiÚ
+ :: 
+	$¡¬t
+()
+
+729 
+	`w–come
+();
+
+730 
+	}
+}
+
+739 
+	gAµliÿtiÚ
+ :: 
+	$ş—nMemÜy
+()
+
+741 
+d–‘e
+ 
+db
+;
+
+742 
+	}
+}
+
+	@database.cpp
+
+9 #iâdeà
+d©aba£_ıp
+
+
+10 
+	#d©aba£_ıp
+
+
+	)
+
+13 
+	~"d©aba£.h
+"
+
+14 
+	~"¡ršg_h–³r.h
+"
+
+17 
+	~<io¡»am
+>
+
+18 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+20 cÚ¡ 
+	gDELIMETER
+ = ';';
+
+33 
+	gD©aba£
+ :: 
+	$D©aba£
+(è
+	$throw
+ (
+IOE¼Ü
+, 
+MemÜyE¼Ü
+)
+
+35 
+Œy
+ {
+
+36 
+this
+ -> 
+vehişeTabË
+ = 
+Ãw
+ 
+TabË
+ <
+Vehişe
+> ("vehicles.txt");
+
+37 
+this
+ -> 
+u£rTabË
+ = 
+Ãw
+ 
+TabË
+ <
+U£r
+> ("users.txt");
+
+38 
+this
+ -> 
+ŒTabË
+ = 
+Ãw
+ 
+TabË
+ <
+Tr
+> ("trips.txt");
+
+40 
+this
+ -> 
+	`ãtchAÎVehişes
+();
+
+41 
+this
+ -> 
+	`ãtchAÎU£rs
+();
+
+42 
+this
+ -> 
+	`ãtchAÎTrs
+();
+
+44 
+	`ÿtch
+ (...) {
+
+45 
+throw
+;
+
+47 
+	}
+}
+
+57 
+	gD©aba£
+ :: 
+	$ãtchAÎVehişes
+(è
+	$throw
+ (
+IOE¼Ü
+, 
+MemÜyE¼Ü
+)
+
+59 
+this
+ -> 
+vehişeTabË
+ -> 
+fe¡»am
+.
+	`İ’
+ (thi -> vehişeTabË -> 
+f’ame
+);
+
+61 ià(!
+this
+ -> 
+vehişeTabË
+ -> 
+fe¡»am
+)
+
+62 
+throw
+ 
+	`IOE¼Ü
+();
+
+65 
+¡ršg
+ 
+lše
+; 
+	`g‘lše
+ (
+this
+ -> 
+vehişeTabË
+ -> 
+fe¡»am
+,†ine);)
+
+67 
+veùÜ
+ <
+¡ršg
+> 
+compÚ’ts
+ = 
+	`¥l™
+ (
+lše
+, 
+DELIMETER
+);
+
+70 autØ
+»cÜdId
+ = 
+	`¡Ş
+ (
+compÚ’ts
+[0]);
+
+71 autØ
+»gi¡¿tiÚNumb”
+ = 
+compÚ’ts
+[1];
+
+72 autØ
+ty³
+ = 
+	`VehişeTy³
+ (
+	`¡Ş
+ (
+compÚ’ts
+[2]));
+
+73 autØ
+£©s
+ = 
+	`¡oi
+ (
+compÚ’ts
+[3]);
+
+74 autØ
+com·nyName
+ = 
+compÚ’ts
+[4];
+
+75 autØ
+´iûP”Km
+ = 
+	`¡od
+ (
+compÚ’ts
+[5]);
+
+76 autØ
+PUCExpœ©iÚD©e
+ = 
+	`D©e
+ (
+compÚ’ts
+[6]);
+
+79 
+StÜabË
+ *
+»cÜd
+ = 
+Ãw
+ 
+	`Vehişe
+ (
+»gi¡¿tiÚNumb”
+, 
+ty³
+, 
+£©s
+, 
+com·nyName
+, 
+´iûP”Km
+, 
+PUCExpœ©iÚD©e
+, 
+»cÜdId
+);
+
+81 if(!
+»cÜdId
+)
+
+82 
+throw
+ 
+	`MemÜyE¼Ü
+();
+
+84 
+this
+ -> 
+vehişeTabË
+ -> 
+»cÜds
+ -> 
+	`push_back
+ (
+»cÜd
+);
+
+86 
+this
+ -> 
+vehişeTabË
+ -> 
+fe¡»am
+.
+	`şo£
+();
+
+87 
+	}
+}
+
+97 
+	gD©aba£
+ :: 
+	$ãtchAÎU£rs
+(è
+	$throw
+ (
+IOE¼Ü
+, 
+MemÜyE¼Ü
+)
+
+99 
+this
+ -> 
+u£rTabË
+ -> 
+fe¡»am
+.
+	`İ’
+ (thi -> u£rTabË -> 
+f’ame
+);
+
+101 ià(!
+this
+ -> 
+u£rTabË
+ -> 
+fe¡»am
+)
+
+102 
+throw
+ 
+	`IOE¼Ü
+();
+
+105 
+¡ršg
+ 
+lše
+; 
+	`g‘lše
+ (
+this
+ -> 
+u£rTabË
+ -> 
+fe¡»am
+,†ine);)
+
+107 
+veùÜ
+ <
+¡ršg
+> 
+compÚ’ts
+ = 
+	`¥l™
+ (
+lše
+, 
+DELIMETER
+);
+
+110 autØ
+»cÜdId
+ = 
+	`¡oi
+ (
+compÚ’ts
+[0]);
+
+111 autØ
+Çme
+ = 
+compÚ’ts
+[1];
+
+112 autØ
+cÚù
+ = 
+compÚ’ts
+[2];
+
+113 autØ
+ema
+ = 
+compÚ’ts
+[3];
+
+116 
+StÜabË
+ *
+»cÜds
+ = 
+Ãw
+ 
+	`U£r
+ (
+Çme
+, 
+cÚù
+, 
+ema
+, 
+»cÜdId
+);
+
+118 ià(!
+»cÜds
+)
+
+119 
+throw
+ 
+	`MemÜyE¼Ü
+();
+
+121 
+this
+ -> 
+u£rTabË
+ -> 
+»cÜds
+ -> 
+	`push_back
+ (records);
+
+123 
+this
+ -> 
+u£rTabË
+ -> 
+fe¡»am
+.
+	`şo£
+();
+
+124 
+	}
+}
+
+134 
+	gD©aba£
+ :: 
+	$ãtchAÎTrs
+(è
+	$throw
+ (
+IOE¼Ü
+, 
+MemÜyE¼Ü
+)
+
+136 
+this
+ -> 
+ŒTabË
+ -> 
+fe¡»am
+.
+	`İ’
+ (thi ->rTabË -> 
+f’ame
+);
+
+138 ià(!
+this
+ -> 
+ŒTabË
+ -> 
+fe¡»am
+)
+
+139 
+throw
+ 
+	`IOE¼Ü
+();
+
+142 
+¡ršg
+ 
+lše
+; 
+	`g‘lše
+ (
+this
+ -> 
+ŒTabË
+ -> 
+fe¡»am
+,†ine);)
+
+144 
+veùÜ
+ <
+¡ršg
+> 
+compÚ’ts
+ = 
+	`¥l™
+ (
+lše
+, 
+DELIMETER
+);
+
+146 
+Œy
+ {
+
+148 autØ
+»cÜdId
+ = 
+	`¡oi
+ (
+compÚ’ts
+[0]);
+
+149 autØ
+vehişePŒ
+ = 
+this
+ -> 
+vehişeTabË
+ -> 
+	`g‘Reã»nûOfRecÜdFÜId
+ (
+	`¡oi
+ (
+compÚ’ts
+[1]));
+
+150 autØ
+u£rPŒ
+ = 
+this
+ -> 
+u£rTabË
+ -> 
+	`g‘Reã»nûOfRecÜdFÜId
+ (
+	`¡oi
+ (
+compÚ’ts
+[2]));
+
+151 autØ
+¡¬tD©e
+ = 
+	`D©e
+ (
+compÚ’ts
+[3]);
+
+152 autØ
+’dD©e
+ = 
+	`D©e
+ (
+compÚ’ts
+[4]);
+
+153 autØ
+¡¬tR—dšg
+ = 
+	`¡Ş
+ (
+compÚ’ts
+[5]);
+
+154 autØ
+’dR—dšg
+ = 
+	`¡Ş
+ (
+compÚ’ts
+[6]);
+
+155 autØ
+ç»
+ = 
+	`¡Ş
+ (
+compÚ’ts
+[7]);
+
+156 autØ
+isCom¶‘ed
+ = 
+compÚ’ts
+[8] =ğ"0" ? 
+çl£
+ : 
+Œue
+;
+
+159 
+StÜabË
+ *
+»cÜd
+ = 
+Ãw
+ 
+	`Tr
+ (
+vehişePŒ
+, 
+u£rPŒ
+, 
+¡¬tD©e
+, 
+’dD©e
+, 
+»cÜdId
+, 
+¡¬tR—dšg
+, 
+’dR—dšg
+, 
+ç»
+, 
+isCom¶‘ed
+);
+
+161 ià(!
+»cÜd
+)
+
+162 
+throw
+ 
+	`MemÜyE¼Ü
+();
+
+164 
+this
+ -> 
+ŒTabË
+ -> 
+»cÜds
+ -> 
+	`push_back
+ (
+»cÜd
+);
+
+166 
+	`ÿtch
+ (...) {
+
+170 
+this
+ -> 
+ŒTabË
+ -> 
+fe¡»am
+.
+	`şo£
+();
+
+171 
+	}
+}
+
+181 cÚ¡ 
+Vehişe
+ *cÚ¡ 
+	gD©aba£
+ :: 
+	$g‘Vehişe
+ (
+¡ršg
+ 
+»gi¡¿tiÚNo
+ècÚ¡ 
+	$throw
+ (
+NoSuchRecÜdE¼Ü
+)
+
+183 autØ&
+»cÜd
+ : *
+this
+ -> 
+vehişeTabË
+ -> 
+»cÜds
+)
+
+185 
+Vehişe
+ *
+vehişe
+ = 
+dyÇmic_ÿ¡
+ <Vehişe*> (
+»cÜd
+);
+
+186 ià(
+vehişe
+)
+
+188 ià(
+vehişe
+ -> 
+	`g‘Regi¡¿tiÚNumb”
+(è=ğ
+»gi¡¿tiÚNo
+)
+
+189  
+vehişe
+;
+
+192 
+throw
+ 
+	`NoSuchRecÜdE¼Ü
+();
+
+193 
+	}
+}
+
+203 cÚ¡ 
+U£r
+ *cÚ¡ 
+	gD©aba£
+ :: 
+	$g‘U£r
+ (
+¡ršg
+ 
+cÚùNo
+ècÚ¡ 
+	$throw
+ (
+NoSuchRecÜdE¼Ü
+)
+
+205 autØ&
+»cÜd
+ : *
+this
+ -> 
+u£rTabË
+ -> 
+»cÜds
+)
+
+207 
+U£r
+ *
+u£r
+ = 
+dyÇmic_ÿ¡
+ <U£r*> (
+»cÜd
+);
+
+208 ià(
+u£r
+)
+
+210 ià(
+u£r
+ -> 
+	`g‘CÚù
+(è=ğ
+cÚùNo
+)
+
+211  
+u£r
+;
+
+214 
+throw
+ 
+	`NoSuchRecÜdE¼Ü
+();
+
+215 
+	}
+}
+
+225 cÚ¡ 
+	gveùÜ
+ <cÚ¡ 
+	gVehişe
+*> 
+	gD©aba£
+ :: 
+	$g‘Vehişe
+ (
+D©e
+ 
+¡¬tD©e
+, D©
+’dD©e
+, 
+VehişeTy³
+ 
+ty³
+) const
+
+227 
+veùÜ
+ <cÚ¡ 
+Vehişe
+*> 
+vehişes
+ = vector <const Vehicle*> ();
+
+228 autØ&
+v»cÜd
+ : *
+this
+ -> 
+vehişeTabË
+ -> 
+»cÜds
+)
+
+230 
+Vehişe
+ *
+vehişe
+ = 
+dyÇmic_ÿ¡
+ <Vehişe*> (
+v»cÜd
+);
+
+231 ià(
+vehişe
+ && vehiş-> 
+	`g‘VehişeTy³
+(è=ğ
+ty³
+)
+
+234 
+boŞ
+ 
+ŒFound
+ = 
+çl£
+;
+
+235 autØ& 
+ŒecÜd
+ : *
+this
+ -> 
+ŒTabË
+ -> 
+»cÜds
+)
+
+237 
+Tr
+ *
+Œ
+ = 
+dyÇmic_ÿ¡
+ <Tr*> (
+ŒecÜd
+);
+
+238 ià(
+Œ
+ && !Œ -> 
+	`isCom¶‘ed
+() &&
+
+239 
+Œ
+ -> 
+	`g‘Vehişe
+().
+	`g‘RecÜdId
+(è=ğ
+vehişe
+ -> getRecordId() &&
+
+240 !(
+Œ
+ -> 
+	`g‘S¹D©e
+(è>ğ
+’dD©e
+ &&r -> 
+	`g‘EndD©e
+() >=ƒndDate) &&
+
+241 !(
+Œ
+ -> 
+	`g‘S¹D©e
+(è<ğ
+¡¬tD©e
+ &&r -> 
+	`g‘EndD©e
+ () <= startDate))
+
+243 
+ŒFound
+ = 
+Œue
+;
+
+247 ià(!
+ŒFound
+)
+
+248 
+vehişes
+.
+	`push_back
+ (
+vehişe
+);
+
+251  
+vehişes
+;
+
+252 
+	}
+}
+
+261 
+	gD©aba£
+ :: 
+	$ş—nUp
+()
+
+263 
+d–‘e
+ 
+this
+ -> 
+vehişeTabË
+;
+
+264 
+d–‘e
+ 
+this
+ -> 
+u£rTabË
+;
+
+265 
+d–‘e
+ 
+this
+ -> 
+ŒTabË
+;
+
+266 
+	}
+}
+
+273 
+	gD©aba£
+ :: ~
+	$D©aba£
+ ()
+
+275 
+this
+ -> 
+	`ş—nUp
+();
+
+276 
+	}
+}
+
+285 cÚ¡ 
+	gTabË
+ <
+	gVehişe
+> *cÚ¡ 
+	gD©aba£
+ :: 
+	$g‘VehişeRef
+() const
+
+287  
+this
+ -> 
+vehişeTabË
+;
+
+288 
+	}
+}
+
+297 cÚ¡ 
+	gTabË
+ <
+	gU£r
+> *cÚ¡ 
+	gD©aba£
+ :: 
+	$g‘U£rRef
+() const
+
+299  
+this
+ -> 
+u£rTabË
+;
+
+300 
+	}
+}
+
+309 cÚ¡ 
+	gTabË
+ <
+	gTr
+> *cÚ¡ 
+	gD©aba£
+ :: 
+	$g‘TrRef
+() const
+
+311  
+this
+ -> 
+ŒTabË
+;
+
+312 
+	}
+}
+
+	@database_templates.cpp
+
+8 
+	~"d©aba£.h
+"
+
+18 
+	g‹m¶©e
+ <
+şass
+ 
+	gT
+> 
+	gD©aba£
+ :: 
+	$addNewRecÜd
+ (
+T
+ *
+»cÜd
+è
+	$throw
+ (
+IOE¼Ü
+, 
+MemÜyE¼Ü
+)
+
+20 
+Œy
+ {
+
+21 
+Vehişe
+ *
+v
+ = 
+dyÇmic_ÿ¡
+ <Vehişe*> (
+»cÜd
+);
+
+22 ià(
+v
+) {
+
+23 autØ
+§vedRecÜd
+ = 
+this
+ -> 
+vehişeTabË
+ -> 
+	`addNewRecÜd
+(*
+v
+);
+
+24 
+»cÜd
+ -> 
+»cÜdId
+ = 
+§vedRecÜd
+ ->„ecordId;
+
+28 
+U£r
+ *
+u
+ = 
+dyÇmic_ÿ¡
+ <U£r*> (
+»cÜd
+);
+
+29 ià(
+u
+) {
+
+30 autØ
+§vedRecÜd
+ = 
+this
+ -> 
+u£rTabË
+ -> 
+	`addNewRecÜd
+(*
+u
+);
+
+31 
+»cÜd
+ -> 
+»cÜdId
+ = 
+§vedRecÜd
+ ->„ecordId;
+
+35 
+Tr
+ *
+t
+ = 
+dyÇmic_ÿ¡
+ <Tr*> (
+»cÜd
+);
+
+36 ià(
+t
+) {
+
+37 autØ
+§vedRecÜd
+ = 
+this
+ -> 
+ŒTabË
+ -> 
+	`addNewRecÜd
+(*
+t
+);
+
+38 
+»cÜd
+ -> 
+»cÜdId
+ = 
+§vedRecÜd
+ ->„ecordId;
+
+42 
+	`ÿtch
+ (...) {
+
+43 
+throw
+;
+
+45 
+	}
+}
+
+55 
+	g‹m¶©e
+ <
+şass
+ 
+	gT
+> 
+	gD©aba£
+ :: 
+	$upd©eRecÜd
+ (
+T
+ *
+»cÜd
+è
+	$throw
+ (
+IOE¼Ü
+, 
+NoSuchRecÜdE¼Ü
+)
+
+57 
+Œy
+ {
+
+58 
+Vehişe
+ *
+v
+ = 
+dyÇmic_ÿ¡
+ <Vehişe*> (
+»cÜd
+);
+
+59 ià(
+v
+) {
+
+60 
+this
+ -> 
+vehişeTabË
+ -> 
+	`upd©eRecÜd
+ (*
+v
+);
+
+64 
+U£r
+ *
+u
+ = 
+dyÇmic_ÿ¡
+ <U£r*> (
+»cÜd
+);
+
+65 ià(
+u
+) {
+
+66 
+this
+ -> 
+u£rTabË
+ -> 
+	`upd©eRecÜd
+ (*
+u
+);
+
+70 
+Tr
+ *
+t
+ = 
+dyÇmic_ÿ¡
+ <Tr*> (
+»cÜd
+);
+
+71 ià(
+t
+) {
+
+72 
+this
+ -> 
+ŒTabË
+ -> 
+	`upd©eRecÜd
+ (*
+t
+);
+
+76 
+	`ÿtch
+ (...) {
+
+77 
+throw
+;
+
+79 
+	}
+}
+
+	@date.cpp
+
+9 
+	~"d©e.h
+"
+
+10 
+	~"¡ršg_h–³r.h
+"
+
+12 cÚ¡ 
+	gDELIMITER
+ = '/';
+
+22 
+	gD©e
+ :: 
+	$D©e
+()
+
+24 
+time_t
+ 
+now
+ = 
+	`time
+(
+NULL
+);
+
+25 
+this
+ -> 
+em±y
+ = 
+çl£
+;
+
+26 
+this
+ -> 
+d©e
+ = *
+	`loÿÉime
+(&
+now
+);
+
+27 
+	}
+}
+
+36 
+	gD©e
+ :: 
+	$D©e
+(
+¡ršg
+ 
+d©e
+)
+
+39 ià(
+d©e
+.
+	`Ëngth
+() < 8)
+
+41 
+this
+ -> 
+em±y
+ = 
+Œue
+;
+
+44 
+this
+ -> 
+em±y
+ = 
+çl£
+;
+
+47 
+veùÜ
+ <
+¡ršg
+> 
+d©eCompÚ’ts
+ = 
+	`¥l™
+(
+d©e
+, 
+DELIMITER
+);
+
+49 
+day
+ = 
+	`¡oi
+ (
+d©eCompÚ’ts
+[0]);
+
+50 
+mÚth
+ = 
+	`¡oi
+ (
+d©eCompÚ’ts
+[1]);
+
+51 
+y—r
+ = 
+	`¡oi
+ (
+d©eCompÚ’ts
+[2]);
+
+53 
+time_t
+ 
+now
+ = 
+	`time
+(
+NULL
+);
+
+54 
+this
+ -> 
+d©e
+ = *
+	`loÿÉime
+(&
+now
+);
+
+56 
+this
+ -> 
+d©e
+.
+tm_y—r
+ = 
+y—r
+ - 1990;
+
+57 
+this
+ -> 
+d©e
+.
+tm_mÚ
+ = 
+mÚth
+ - 1;
+
+58 
+this
+ -> 
+d©e
+.
+tm_mday
+ = 
+day
+;
+
+60 
+	`mktime
+(&
+this
+ -> 
+d©e
+);
+
+61 
+	}
+}
+
+70 
+boŞ
+ 
+	gD©e
+ :: 
+	$isEm±y
+() const
+
+72  
+this
+ -> 
+em±y
+;
+
+73 
+	}
+}
+
+82 
+¡ršg
+ 
+	gD©e
+ :: 
+	$toSŒšg
+ () const
+
+84 ià(
+this
+ -> 
+em±y
+)
+
+87 
+¡ršg¡»am
+ 
+ss
+;
+
+88 
+ss
+ << 
+this
+ -> 
+d©e
+.
+tm_mday
+ << "/" <<hi -> d©e.
+tm_mÚ
+ + 1 << "/" <<hi -> d©e.
+tm_y—r
+ + 1990;
+
+89  
+ss
+.
+	`¡r
+();
+
+90 
+	}
+}
+
+99 
+boŞ
+ 
+	gD©e
+ :: 
+İ”©Ü
+ > (
+D©e
+ 
+d©e
+) const
+
+101 ià(
+this
+ -> 
+isEm±y
+(è|| 
+d©e
+.isEmpty())
+
+102  
+çl£
+;
+
+104 
+	gy—rDiff
+ = 
+this
+ -> 
+d©e
+.
+tm_y—r
+ - date.date.tm_year;
+
+105 
+	gmÚthDiff
+ = 
+this
+ -> 
+d©e
+.
+tm_mÚ
+ - date.date.tm_mon;
+
+106 
+	gdayDiff
+ = 
+this
+ -> 
+d©e
+.
+tm_mday
+ - date.date.tm_mday;
+
+108 ià(
+	gy—rDiff
+ != 0)
+
+109  
+y—rDiff
+ > 0;
+
+111 ià(
+	gmÚthDiff
+ != 0)
+
+112  
+mÚthDiff
+ > 0;
+
+115  
+	gdayDiff
+ > 0;
+
+125 
+boŞ
+ 
+	gD©e
+ :: 
+İ”©Ü
+ >ğ(
+D©e
+ 
+d©e
+) const
+
+127  !(*
+this
+ < 
+d©e
+);
+
+137 
+boŞ
+ 
+	gD©e
+ :: 
+İ”©Ü
+ < (
+D©e
+ 
+d©e
+) const
+
+139 ià(
+this
+ -> 
+isEm±y
+(è|| 
+d©e
+.isEmpty())
+
+140  
+çl£
+;
+
+142 
+	gy—rDiff
+ = 
+this
+ -> 
+d©e
+.
+tm_y—r
+ - date.date.tm_year;
+
+143 
+	gmÚthDiff
+ = 
+this
+ -> 
+d©e
+.
+tm_mÚ
+ - date.date.tm_mon;
+
+144 
+	gdayDiff
+ = 
+this
+ -> 
+d©e
+.
+tm_mday
+ - date.date.tm_mday;
+
+146 ià(
+	gy—rDiff
+ != 0)
+
+147  
+y—rDiff
+ < 0;
+
+149 ià(
+	gmÚthDiff
+ != 0)
+
+150  
+mÚthDiff
+ < 0;
+
+153  
+	gdayDiff
+ < 0;
+
+163 
+boŞ
+ 
+	gD©e
+ :: 
+İ”©Ü
+ <ğ(
+D©e
+ 
+d©e
+) const
+
+165  !(*
+this
+ > 
+d©e
+);
+
+	@error.cpp
+
+9 #iâdeà
+”rÜ_ıp
+
+
+10 
+	#”rÜ_ıp
+
+
+	)
+
+13 
+	~<¡ršg
+>
+
+14 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+23 şas 
+	cE¼Ü
+
+
+25 
+	m´iv©e
+:
+
+26 
+¡ršg
+ 
+mes§ge
+;
+
+28 
+	mpublic
+:
+
+30 
+	$E¼Ü
+ (
+¡ršg
+ 
+mes§ge
+)
+
+32 
+this
+ -> 
+mes§ge
+ = message;
+
+35 
+¡ršg
+ 
+	$g‘Mes§ge
+() const
+
+37  
+this
+ -> 
+mes§ge
+;
+
+38 
+	}
+}
+
+46 şas 
+	cNoSuchRecÜdE¼Ü
+ : 
+public
+ 
+E¼Ü
+
+
+48 
+public
+:
+
+50 
+	$NoSuchRecÜdE¼Ü
+(): 
+	`E¼Ü
+ ("No such„ecord found") {};
+
+51 
+	}
+};
+
+58 şas 
+	cIOE¼Ü
+ : 
+public
+ 
+E¼Ü
+
+
+60 
+public
+:
+
+62 
+	$IOE¼Ü
+(): 
+	`E¼Ü
+ ("I/O Error could‚ot open or…rocess file make sure 'vehicle.txt',rips.txt'‡nd 'users.txt' fileƒxists inhis directory") {};
+
+63 
+	}
+};
+
+70 şas 
+	cMemÜyE¼Ü
+ : 
+public
+ 
+E¼Ü
+
+
+72 
+public
+:
+
+74 
+	$MemÜyE¼Ü
+(): 
+	`E¼Ü
+ ("System out of memory") {};
+
+75 
+	}
+};
+
+	@main.cpp
+
+8 
+	~"­¶iÿtiÚ.h
+"
+
+11 
+	~<io¡»am
+>
+
+12 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+14 
+	$maš
+ (
+¬gc
+, cÚ¡ * 
+¬gv
+[])
+
+16 
+AµliÿtiÚ
+ *
+­¶iÿtiÚ
+ = 
+Ãw
+ 
+	`AµliÿtiÚ
+();
+
+17 
+­¶iÿtiÚ
+ -> 
+	`¡¬t
+();
+
+18 
+	}
+}
+
+	@serializable.cpp
+
+9 
+	~<¡ršg
+>
+
+10 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+19 şas 
+	cS”ŸlizabË
+
+
+21 
+	mpublic
+ :
+
+22 
+vœtu®
+ 
+¡ršg
+ 
+	$toSŒšg
+() const = 0;
+
+	@storable.cpp
+
+8 #iâdeà
+¡ÜabË_ıp
+
+
+9 
+	#¡ÜabË_ıp
+
+
+	)
+
+12 
+	~"£rŸlizabË.ıp
+"
+
+15 
+	~<¡ršg
+>
+
+16 
+	~<io¡»am
+>
+
+17 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+26 şas 
+	cStÜabË
+: 
+public
+ 
+S”ŸlizabË
+
+
+28 
+´Ùeùed
+:
+
+30 
+»cÜdId
+;
+
+32 
+	mpublic
+:
+
+34 
+	$StÜabË
+ (
+»cÜdId
+)
+
+36 
+this
+ -> 
+»cÜdId
+ =„ecordId;
+
+39 
+	$g‘RecÜdId
+() const
+
+41  
+this
+ -> 
+»cÜdId
+;
+
+42 
+	}
+};
+
+45 
+vœtu®
+ 
+£tD©aFrom
+ ( 
+StÜabË
+ *
+s
+) = 0;
+
+52 
+	g‹m¶©e
+ <
+şass
+ 
+	gT
+> 
+ä›nd
+ cÏs 
+	gTabË
+;
+
+53 
+ä›nd
+ 
+şass
+ 
+	gD©aba£
+;
+
+	@string_helper.cpp
+
+9 
+	~"¡ršg_h–³r.h
+"
+
+18 
+	gveùÜ
+ <
+	g¡ršg
+> 
+	$¥l™
+ (cÚ¡ 
+¡ršg
+ &
+s
+, 
+d–im™”
+)
+
+20 
+veùÜ
+ <
+¡ršg
+> 
+tok’s
+;
+
+21 
+¡ršg
+ 
+tok’
+;
+
+22 
+i¡ršg¡»am
+ 
+	`tok’SŒ—m
+ (
+s
+);
+
+24 
+	`g‘lše
+ (
+tok’SŒ—m
+, 
+tok’
+, 
+d–im™”
+))
+
+26 
+tok’s
+.
+	`push_back
+(
+tok’
+);
+
+29  
+tok’s
+;
+
+30 
+	}
+}
+
+	@table.cpp
+
+8 
+	~"bË.h
+"
+
+11 
+	~<io¡»am
+>
+
+12 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+24 
+	g‹m¶©e
+ <
+şass
+ 
+	gT
+> 
+	gTabË
+ <T> :: 
+	$TabË
+ (
+¡ršg
+ 
+f’ame
+è
+	$throw
+ (
+MemÜyE¼Ü
+)
+
+26 
+this
+ -> 
+f’ame
+ = filename;
+
+27 
+this
+ -> 
+»cÜds
+ = 
+Ãw
+ 
+veùÜ
+ <
+StÜabË
+ *> ();
+
+29 ià(!
+this
+ -> 
+»cÜds
+)
+
+30 
+throw
+ 
+	`MemÜyE¼Ü
+();
+
+31 
+	}
+}
+
+40 
+	g‹m¶©e
+ <
+şass
+ 
+	gT
+> 
+	gTabË
+ <T> :: 
+	$g‘NextRecÜdId
+() const
+
+42  
+this
+ -> 
+»cÜds
+ -> 
+	`size
+() + 1;
+
+43 
+	}
+}
+
+53 
+	g‹m¶©e
+ <
+şass
+ 
+	gT
+> cÚ¡ 
+T
+ *cÚ¡ 
+	gTabË
+ <T> :: 
+	$addNewRecÜd
+ (
+T
+ 
+»cÜd
+è
+	$throw
+ (
+MemÜyE¼Ü
+, 
+IOE¼Ü
+)
+
+55 
+T
+ *
+ÃwRecÜd
+ = 
+Ãw
+ 
+	`T
+ (
+»cÜd
+);
+
+57 ià(!
+ÃwRecÜd
+)
+
+58 
+throw
+ 
+Ãw
+ 
+	`MemÜyE¼Ü
+();
+
+60 
+ÃwRecÜd
+ -> 
+»cÜdId
+ = 
+this
+ -> 
+	`g‘NextRecÜdId
+();
+
+63 
+this
+ -> 
+»cÜds
+ -> 
+	`push_back
+ (
+ÃwRecÜd
+);
+
+66 
+Œy
+ {
+
+67 
+this
+ -> 
+	`wr™eTofe
+();
+
+69 
+	`ÿtch
+ (
+IOE¼Ü
+ 
+”rÜ
+) {
+
+71 
+this
+ -> 
+»cÜds
+ -> 
+	`pİ_back
+();
+
+72 
+d–‘e
+ 
+ÃwRecÜd
+;
+
+75 
+throw
+;
+
+78  
+ÃwRecÜd
+;
+
+79 
+	}
+}
+
+89 
+	g‹m¶©e
+ <
+şass
+ 
+	gT
+> 
+	gTabË
+ <T> :: 
+	$upd©eRecÜd
+(
+T
+ 
+upd©edRecÜd
+è
+	$throw
+ (
+IOE¼Ü
+, 
+NoSuchRecÜdE¼Ü
+)
+
+91 autØ&
+»cÜd
+ : *
+this
+ -> 
+»cÜds
+)
+
+93 ià(
+»cÜd
+ -> 
+	`g‘RecÜdId
+(è=ğ
+upd©edRecÜd
+.getRecordId())
+
+95 
+T
+ *
+poš‹rToRecÜd
+ = 
+dyÇmic_ÿ¡
+ <T*> (
+»cÜd
+);
+
+96 ià(
+poš‹rToRecÜd
+)
+
+98 
+T
+ 
+ŞdRecÜd
+ = 
+	`T
+ (*
+poš‹rToRecÜd
+);
+
+99 
+»cÜd
+ -> 
+	`£tD©aFrom
+ (&
+upd©edRecÜd
+);
+
+102 
+Œy
+ {
+
+103 
+this
+ -> 
+	`wr™eTofe
+();
+
+105 
+	`ÿtch
+ (
+IOE¼Ü
+ 
+”rÜ
+) {
+
+106 
+»cÜd
+ -> 
+	`£tD©aFrom
+ (&
+ŞdRecÜd
+);
+
+109 
+throw
+;
+
+115 
+throw
+ 
+	`NoSuchRecÜdE¼Ü
+();
+
+116 
+	}
+}
+
+127 
+	g‹m¶©e
+ <
+şass
+ 
+	gT
+> 
+	gTabË
+ <T> :: 
+	$wr™eTofe
+(è
+	$throw
+ (
+IOE¼Ü
+)
+
+132 
+this
+ -> 
+fe¡»am
+.
+	`İ’
+ (
+f’ame
+, 
+ios
+::
+out
+ | ios::
+Œunc
+);
+
+134 ià(!
+this
+ -> 
+fe¡»am
+)
+
+135 
+throw
+ 
+	`IOE¼Ü
+();
+
+137 autØ&
+»cÜd
+ : *
+»cÜds
+)
+
+140 
+fe¡»am
+ << 
+»cÜd
+ -> 
+	`toSŒšg
+(è<< 
+’dl
+;
+
+143 
+this
+ -> 
+fe¡»am
+.
+	`şo£
+();
+
+144 
+	}
+}
+
+153 
+	g‹m¶©e
+ <
+şass
+ 
+	gT
+> cÚ¡ 
+T
+ *cÚ¡ 
+	gTabË
+ <T> :: 
+	$g‘RecÜdFÜId
+ (
+»cÜdId
+ècÚ¡ 
+	$throw
+ (
+NoSuchRecÜdE¼Ü
+)
+
+155 
+Œy
+ {
+
+156  
+this
+ -> 
+	`g‘Reã»nûOfRecÜdFÜId
+ (
+»cÜdId
+);
+
+158 
+	`ÿtch
+ (
+NoSuchRecÜdE¼Ü
+ 
+”rÜ
+) {
+
+159 
+throw
+;
+
+161 
+	}
+}
+
+171 
+	g‹m¶©e
+ <
+şass
+ 
+	gT
+> 
+T
+ *
+	gTabË
+ <T> :: 
+	$g‘Reã»nûOfRecÜdFÜId
+ (
+»cÜdId
+ècÚ¡ 
+	$throw
+ (
+NoSuchRecÜdE¼Ü
+)
+
+173 autØ&
+»cÜd
+ : *
+»cÜds
+)
+
+175 ià(
+»cÜd
+ -> 
+	`g‘RecÜdId
+(è=ğ
+»cÜdId
+)
+
+176  
+dyÇmic_ÿ¡
+ <
+T
+*> (
+»cÜd
+);
+
+180 
+throw
+ 
+	`NoSuchRecÜdE¼Ü
+();
+
+181 
+	}
+}
+
+188 
+	g‹m¶©e
+ <
+şass
+ 
+	gT
+> 
+	gTabË
+ <T> :: ~
+	$TabË
+()
+
+191 autØ&
+»cÜd
+ : *
+this
+ -> 
+»cÜds
+)
+
+194 
+d–‘e
+ 
+dyÇmic_ÿ¡
+ <
+T
+*> (
+»cÜd
+);
+
+200 
+this
+ -> 
+»cÜds
+ -> 
+	`ş—r
+();
+
+203 
+this
+ -> 
+»cÜds
+ -> 
+	`shršk_to_f™
+();
+
+206 
+d–‘e
+ 
+this
+ -> 
+»cÜds
+;
+
+207 
+	}
+}
+
+	@trip.cpp
+
+8 
+	~"Œ.h
+"
+
+9 
+	~"../šşude/¡ršg_h–³r.h
+"
+
+12 
+	~<io¡»am
+>
+
+13 cÚ¡ 
+	gDELIMITER
+ = ';';
+
+24 
+	gTr
+ :: 
+	$Tr
+ (cÚ¡ 
+Vehişe
+ *
+vehişe
+, cÚ¡ 
+U£r
+ *
+u£r
+, 
+D©e
+ 
+¡¬tD©e
+, D©
+’dD©e
+, 
+»cÜdId
+, 
+¡¬tR—dšg
+, 
+’dR—dšg
+, 
+ç»
+, 
+boŞ
+ 
+isCom¶‘ed
+è: 
+	$StÜabË
+ (
+»cÜdId
+)
+
+26 
+this
+ -> 
+vehişe
+ = vehicle;
+
+27 
+this
+ -> 
+u£r
+ = user;
+
+28 
+this
+ -> 
+¡¬tD©e
+ = startDate;
+
+29 
+this
+ -> 
+’dD©e
+ =ƒndDate;
+
+30 
+this
+ -> 
+¡¬tR—dšg
+ = startReading;
+
+31 
+this
+ -> 
+’dR—dšg
+ =ƒndReading;
+
+32 
+this
+ -> 
+ç»
+ = fare;
+
+33 
+this
+ -> 
+com¶‘ed
+ = 
+isCom¶‘ed
+;
+
+34 
+	}
+}
+
+43 cÚ¡ 
+	gU£r
+ &
+	gTr
+ :: 
+	$g‘U£r
+() const
+
+45  *
+this
+ -> 
+u£r
+;
+
+46 
+	}
+}
+
+55 cÚ¡ 
+	gVehişe
+ &
+	gTr
+ :: 
+	$g‘Vehişe
+() const
+
+57  *
+this
+ -> 
+vehişe
+;
+
+58 
+	}
+}
+
+67 
+D©e
+ 
+	gTr
+ :: 
+	$g‘S¹D©e
+() const
+
+69  
+this
+ -> 
+¡¬tD©e
+;
+
+70 
+	}
+}
+
+79 
+D©e
+ 
+	gTr
+ :: 
+	$g‘EndD©e
+() const
+
+81  
+this
+ -> 
+’dD©e
+;
+
+82 
+	}
+}
+
+91 
+	gTr
+ :: 
+	$g‘S¹R—dšg
+() const
+
+93  
+this
+ -> 
+¡¬tR—dšg
+;
+
+94 
+	}
+}
+
+103 
+	gTr
+ :: 
+	$g‘EndR—dšg
+() const
+
+105  
+this
+ -> 
+’dR—dšg
+;
+
+106 
+	}
+}
+
+115 
+	gTr
+ :: 
+	$g‘F¬e
+() const
+
+117  
+this
+ -> 
+ç»
+;
+
+118 
+	}
+}
+
+127 
+boŞ
+ 
+	gTr
+ :: 
+	$isCom¶‘ed
+() const
+
+129  
+this
+ -> 
+com¶‘ed
+;
+
+130 
+	}
+}
+
+139 
+	gTr
+ :: 
+	$¡¬tTr
+(
+¡¬tR—dšg
+)
+
+141 
+this
+ -> 
+¡¬tR—dšg
+ = startReading;
+
+142 
+	}
+}
+
+151 
+	gTr
+ :: 
+	$com¶‘eTr
+(
+’dR—dšg
+)
+
+153 ià(
+this
+ -> 
+com¶‘ed
+)
+
+154  
+this
+ -> 
+ç»
+;
+
+156 
+this
+ -> 
+’dR—dšg
+ =ƒndReading;
+
+157 
+this
+ -> 
+ç»
+ = (thi -> 
+’dR—dšg
+ -hi -> 
+¡¬tR—dšg
+è*hi -> 
+vehişe
+ -> 
+	`g‘PriûP”Km
+();
+
+158 
+this
+ -> 
+com¶‘ed
+ = 
+Œue
+;
+
+160  
+this
+ -> 
+ç»
+;
+
+161 
+	}
+}
+
+170 
+	gTr
+ :: 
+	$di¥Ïy
+() const
+
+172 
+cout
+ << "VehişD‘as: " << 
+’dl
+;
+
+173 
+cout
+ << "Regi¡¿tiÚ No.: " << 
+this
+ -> 
+vehişe
+ -> 
+	`g‘Regi¡¿tiÚNumb”
+(è<< 
+’dl
+;
+
+174 
+cout
+ << "VehişTy³: " << 
+this
+ -> 
+vehişe
+ -> 
+	`g‘VehişeTy³Name
+(è<< 
+’dl
+;
+
+175 
+cout
+ << "Com·ny Name: " << 
+this
+ -> 
+vehişe
+ -> 
+	`g‘Com·nyName
+(è<< 
+’dl
+;
+
+176 
+cout
+ << "Priû…” km: " << 
+this
+ -> 
+vehişe
+ -> 
+	`g‘PriûP”Km
+(è<< " R /km" << 
+’dl
+;
+
+177 
+cout
+ << 
+’dl
+;
+
+179 
+cout
+ << "U£¸D‘as: " << 
+’dl
+;
+
+180 
+cout
+ << "Name: " << 
+this
+ -> 
+u£r
+ -> 
+	`g‘Name
+(è<< 
+’dl
+;
+
+181 
+cout
+ << "CÚù: " << 
+this
+ -> 
+u£r
+ -> 
+	`g‘CÚù
+(è<< 
+’dl
+;
+
+182 
+cout
+ << 
+’dl
+;
+
+184 
+cout
+ << "Tr D‘as: " << 
+’dl
+;
+
+185 
+cout
+ << "S¹ D©e: " << 
+this
+ -> 
+¡¬tD©e
+.
+	`toSŒšg
+(è<< 
+’dl
+;
+
+186 
+cout
+ << "End D©e: " << 
+this
+ -> 
+’dD©e
+.
+	`toSŒšg
+(è<< 
+’dl
+;
+
+188 
+¡ršg
+ 
+ŒStus
+ = "Not started";
+
+190 ià(
+this
+ -> 
+¡¬tR—dšg
+ != 0)
+
+192 
+ŒStus
+ = "On going";
+
+193 
+cout
+ << "S¹„—dšg: " << 
+this
+ -> 
+¡¬tR—dšg
+ << 
+’dl
+;
+
+196 ià(
+this
+ -> 
+com¶‘ed
+)
+
+198 
+ŒStus
+ = "Completed";
+
+199 
+cout
+ << "End„—dšg: " << 
+this
+ -> 
+’dR—dšg
+ << 
+’dl
+;
+
+200 
+cout
+ << "TÙ®„un: " << 
+this
+ -> 
+’dR—dšg
+ -hi -> 
+¡¬tR—dšg
+ << 
+’dl
+;
+
+201 
+cout
+ << "TÙ® f¬e: " << 
+this
+ -> 
+ç»
+ << 
+’dl
+;
+
+204 
+cout
+ << "Tr stus: " << 
+ŒStus
+ << 
+’dl
+;
+
+205 
+	}
+}
+
+214 
+¡ršg
+ 
+	gTr
+ :: 
+	$toSŒšg
+() const
+
+216 
+¡ršg¡»am
+ 
+ss
+;
+
+217 
+ss
+ << 
+»cÜdId
+ << 
+DELIMITER
+
+
+218 << 
+vehişe
+ -> 
+	`g‘RecÜdId
+(è<< 
+DELIMITER
+
+
+219 << 
+u£r
+ -> 
+	`g‘RecÜdId
+(è<< 
+DELIMITER
+
+
+220 << 
+¡¬tD©e
+.
+	`toSŒšg
+(è<< 
+DELIMITER
+
+
+221 << 
+’dD©e
+.
+	`toSŒšg
+(è<< 
+DELIMITER
+
+
+222 << 
+¡¬tR—dšg
+ << 
+DELIMITER
+
+
+223 << 
+’dR—dšg
+ << 
+DELIMITER
+
+
+224 << 
+ç»
+ << 
+DELIMITER
+
+
+225 << 
+com¶‘ed
+;
+
+227  
+ss
+.
+	`¡r
+();
+
+228 
+	}
+}
+
+237 
+	gTr
+ :: 
+	$£tD©aFrom
+ (
+StÜabË
+ *
+s
+)
+
+239 
+Tr
+ *
+t
+ = 
+¡©ic_ÿ¡
+ <Tr*> (
+s
+);
+
+241 ià(
+t
+)
+
+243 
+this
+ -> 
+vehişe
+ = 
+t
+ -> vehicle;
+
+244 
+this
+ -> 
+u£r
+ = 
+t
+ -> user;
+
+245 
+this
+ -> 
+¡¬tD©e
+ = 
+t
+ -> startDate;
+
+246 
+this
+ -> 
+’dD©e
+ = 
+t
+ ->ƒndDate;
+
+247 
+this
+ -> 
+¡¬tR—dšg
+ = 
+t
+ -> startReading;
+
+248 
+this
+ -> 
+’dR—dšg
+ = 
+t
+ ->ƒndReading;
+
+249 
+this
+ -> 
+ç»
+ = 
+t
+ -> fare;
+
+250 
+this
+ -> 
+com¶‘ed
+ = 
+t
+ -> completed;
+
+252 
+	}
+}
+
+	@user.cpp
+
+8 
+	~"u£r.h
+"
+
+9 
+	~"¡ršg_h–³r.h
+"
+
+12 
+	~<io¡»am
+>
+
+13 cÚ¡ 
+	gDELIMITER
+ = ';';
+
+23 
+	gU£r
+ :: 
+	$U£r
+ (
+¡ršg
+ 
+Çme
+, sŒšg 
+cÚù
+, sŒšg 
+ema
+, 
+»cÜdId
+è: 
+	$StÜabË
+ (
+»cÜdId
+)
+
+25 
+this
+ -> 
+Çme
+ =‚ame;
+
+26 
+this
+ -> 
+cÚù
+ = contact;
+
+27 
+this
+ -> 
+ema
+ =ƒmail;
+
+28 
+	}
+}
+
+37 
+¡ršg
+ 
+	gU£r
+ :: 
+	$g‘Name
+() const
+
+39  
+this
+ -> 
+Çme
+;
+
+40 
+	}
+}
+
+49 
+¡ršg
+ 
+	gU£r
+ :: 
+	$g‘CÚù
+() const
+
+51  
+this
+ -> 
+cÚù
+;
+
+52 
+	}
+}
+
+61 
+¡ršg
+ 
+	gU£r
+ :: 
+	$g‘Ema
+() const
+
+63  
+this
+ -> 
+ema
+;
+
+64 
+	}
+}
+
+73 
+	gU£r
+ :: 
+	$£tName
+ (
+¡ršg
+ 
+ÃwName
+)
+
+75 
+this
+ -> 
+Çme
+ = 
+ÃwName
+;
+
+76 
+	}
+}
+
+85 
+	gU£r
+ :: 
+	$£tCÚù
+ (
+¡ršg
+ 
+ÃwCÚù
+)
+
+87 
+this
+ -> 
+cÚù
+ = 
+ÃwCÚù
+;
+
+88 
+	}
+}
+
+97 
+	gU£r
+ :: 
+	$£tEma
+ (
+¡ršg
+ 
+ÃwEma
+)
+
+99 
+this
+ -> 
+ema
+ = 
+ÃwEma
+;
+
+100 
+	}
+}
+
+109 
+	gU£r
+ :: 
+	$di¥Ïy
+() const
+
+111 
+cout
+ << "U£¸D‘as: " << 
+’dl
+;
+
+112 
+cout
+ << "Nam: " << 
+this
+ -> 
+Çme
+ << 
+’dl
+;
+
+113 
+cout
+ << "CÚù : " << 
+this
+ -> 
+cÚù
+ << 
+’dl
+;
+
+114 
+cout
+ << "Ema : " << 
+this
+ -> 
+ema
+ << 
+’dl
+;
+
+115 
+	}
+}
+
+124 
+¡ršg
+ 
+	gU£r
+ :: 
+	$toSŒšg
+ () const
+
+126 
+¡ršg¡»am
+ 
+ss
+;
+
+127 
+ss
+ << 
+»cÜdId
+ << 
+DELIMITER
+
+
+128 << 
+Çme
+ << 
+DELIMITER
+
+
+129 << 
+cÚù
+ << 
+DELIMITER
+
+
+130 << 
+ema
+;
+
+132  
+ss
+.
+	`¡r
+();
+
+133 
+	}
+}
+
+142 
+	gU£r
+ :: 
+	$£tD©aFrom
+ (
+StÜabË
+ *
+s
+)
+
+144 
+U£r
+ *
+u£r
+ = 
+dyÇmic_ÿ¡
+ <U£r*> (
+s
+);
+
+146 ià(
+u£r
+)
+
+148 
+this
+ -> 
+cÚù
+ = 
+u£r
+ -> contact;
+
+149 
+this
+ -> 
+Çme
+ = 
+u£r
+ ->‚ame;
+
+150 
+this
+ -> 
+ema
+ = 
+u£r
+ ->ƒmail;
+
+152 
+	}
+}
+
+	@vehicle.cpp
+
+8 
+	~"vehişe.h
+"
+
+9 
+	~"../šşude/¡ršg_h–³r.h
+"
+
+11 cÚ¡ 
+	gDELIMETER
+ = ';';
+
+23 
+	gVehişe
+ :: 
+	$Vehişe
+ (
+¡ršg
+ 
+»gi¡¿tiÚNumb”
+, 
+VehişeTy³
+ 
+ty³
+, 
+£©s
+, sŒšg 
+com·nyName
+, 
+´iûP”Km
+, 
+D©e
+ 
+PUCExpœ©iÚD©e
+, 
+»cÜdId
+è: 
+	$StÜabË
+ (
+»cÜdId
+)
+
+25 
+this
+ -> 
+»gi¡¿tiÚNumb”
+ =„egistrationNumber;
+
+26 
+this
+ -> 
+ty³
+ =ype;
+
+27 
+this
+ -> 
+£©s
+ = seats;
+
+28 
+this
+ -> 
+com·nyName
+ = companyName;
+
+29 
+this
+ -> 
+´iûP”Km
+ =…ricePerKm;
+
+30 
+this
+ -> 
+PUCExpœ©iÚD©e
+ = PUCExpirationDate;
+
+31 
+	}
+}
+
+40 
+¡ršg
+ 
+	gVehişe
+ :: 
+	$g‘Regi¡¿tiÚNumb”
+ () const
+
+42  
+this
+ -> 
+»gi¡¿tiÚNumb”
+;
+
+43 
+	}
+}
+
+52 
+VehişeTy³
+ 
+	gVehişe
+ :: 
+	$g‘VehişeTy³
+ () const
+
+54  
+this
+ -> 
+ty³
+;
+
+55 
+	}
+}
+
+64 
+	gVehişe
+ :: 
+	$g‘S—ts
+ () const
+
+66  
+this
+ -> 
+£©s
+;
+
+67 
+	}
+}
+
+76 
+¡ršg
+ 
+	gVehişe
+ :: 
+	$g‘Com·nyName
+() const
+
+78  
+this
+ -> 
+com·nyName
+;
+
+79 
+	}
+}
+
+88 
+	gVehişe
+ :: 
+	$g‘PriûP”Km
+() const
+
+90  
+this
+ -> 
+´iûP”Km
+;
+
+91 
+	}
+}
+
+100 
+D©e
+ 
+	gVehişe
+ :: 
+	$g‘PUCExpœ©iÚD©e
+() const
+
+102  
+this
+ -> 
+PUCExpœ©iÚD©e
+;
+
+103 
+	}
+}
+
+112 
+	gVehişe
+ :: 
+	$£tPriûP”Km
+ (
+ÃwPriû
+)
+
+114 
+this
+ -> 
+´iûP”Km
+ = 
+ÃwPriû
+;
+
+115 
+	}
+}
+
+124 
+¡ršg
+ 
+	gVehişe
+ :: 
+	$g‘VehişeTy³Name
+() const
+
+126 
+this
+ -> 
+ty³
+)
+
+128 
+VehişeTy³
+ :: 
+bike
+:
+
+130 
+VehişeTy³
+ :: 
+ÿr
+:
+
+132 
+VehişeTy³
+ :: 
+tow”a
+:
+
+137 
+	}
+}
+
+146 
+	gVehişe
+ :: 
+	$di¥Ïy
+() const
+
+148 
+cout
+ << "VehişD‘a : " << 
+’dl
+;
+
+149 
+cout
+ << "Regi¡¿tiÚ NØ: " << 
+this
+ -> 
+»gi¡¿tiÚNumb”
+ << 
+’dl
+;
+
+150 
+cout
+ << "VehişTy³ : " << 
+this
+ -> 
+	`g‘VehişeTy³Name
+(è<< 
+’dl
+;
+
+151 
+cout
+ << "NØoà£© : " << 
+this
+ -> 
+£©s
+ << 
+’dl
+;
+
+152 
+cout
+ << "Com·ny Nam: " << 
+this
+ -> 
+com·nyName
+ << 
+’dl
+;
+
+153 
+cout
+ << "Priû…” km : " << 
+this
+ -> 
+´iûP”Km
+ << " Rs/Km" << 
+’dl
+;
+
+154 
+cout
+ << "PUC Expœ©iÚ d©: " << 
+this
+ -> 
+PUCExpœ©iÚD©e
+.
+	`toSŒšg
+(è<< 
+’dl
+;
+
+155 
+	}
+}
+
+164 
+¡ršg
+ 
+	gVehişe
+ :: 
+	$toSŒšg
+ () const
+
+166 
+¡ršg¡»am
+ 
+ss
+;
+
+167 
+ss
+ << 
+»cÜdId
+ << 
+DELIMETER
+
+
+168 << 
+»gi¡¿tiÚNumb”
+ << 
+DELIMETER
+
+
+169 << 
+ty³
+ << 
+DELIMETER
+
+
+170 << 
+£©s
+ << 
+DELIMETER
+
+
+171 << 
+com·nyName
+ << 
+DELIMETER
+
+
+172 << 
+	`to_¡ršg
+ (
+´iûP”Km
+è<< 
+DELIMETER
+
+
+173 << 
+PUCExpœ©iÚD©e
+.
+	`toSŒšg
+();
+
+175  
+ss
+.
+	`¡r
+();
+
+176 
+	}
+}
+
+185 
+	gVehişe
+ :: 
+	$£tD©aFrom
+ (
+StÜabË
+ *
+s
+)
+
+187 
+Vehişe
+ *
+v
+ = 
+dyÇmic_ÿ¡
+ <Vehişe*> (
+s
+);
+
+189 ià(
+v
+)
+
+191 
+this
+ -> 
+»gi¡¿tiÚNumb”
+ = 
+v
+ ->„egistrationNumber;
+
+192 
+this
+ -> 
+ty³
+ = 
+v
+ ->ype;
+
+193 
+this
+ -> 
+£©s
+ = 
+v
+ -> seats;
+
+194 
+this
+ -> 
+com·nyName
+ = 
+v
+ -> companyName;
+
+195 
+this
+ -> 
+´iûP”Km
+ = 
+v
+ ->…ricePerKm;
+
+196 
+this
+ -> 
+PUCExpœ©iÚD©e
+ = 
+v
+ -> PUCExpirationDate;
+
+198 
+	}
+}
+
+	@../include/string_helper.h
+
+9 #iâdeà
+¡ršg_h–³r_h
+
+
+10 
+	#¡ršg_h–³r_h
+
+
+	)
+
+13 
+	~<veùÜ
+>
+
+14 
+	~<s¡»am
+>
+
+15 
+	~<™”©Ü
+>
+
+17 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+20 
+veùÜ
+ <
+¡d
+ :: 
+¡ršg
+> 
+¥l™
+ (cÚ¡ sŒšg &
+s
+, 
+d–im™”
+);
+
+	@
+1
+.
+1
+/usr/include
+14
+195
+application.cpp
+database.cpp
+database_templates.cpp
+date.cpp
+error.cpp
+main.cpp
+serializable.cpp
+storable.cpp
+string_helper.cpp
+table.cpp
+trip.cpp
+user.cpp
+vehicle.cpp
+../include/string_helper.h
