@@ -1,3 +1,9 @@
+#*****************************************************************************************************
+#                 2023 All copyrights reserved (Vehicle Rental System project)
+#      Author      : Tarun Tej Barrenkala
+#      FILENAME    : makefile
+#      DESCRIPTION : This file contains all the dependecies and compilation commands of the source code
+#*****************************************************************************************************/
 CC := g++
 CXXFLAGS := -std=c++11 -Wall -g
 INCLUDE_DIR := ./../include
